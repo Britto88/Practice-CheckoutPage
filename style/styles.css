@@ -1,0 +1,490 @@
+body {
+    margin-left: 100px;
+    font-family: Montserrat, Arial;
+}
+
+.main-container {
+    display: flex;
+}
+
+.submain-container {
+    margin-right: 150px;
+}
+
+.checkout-text {
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #4E5150;
+}
+
+.contact-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4E5150;
+}
+
+.email-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #4F4F4F
+}
+
+.email-icon {
+    width: 310px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #828282;
+}
+
+.email-icon i {
+    color: #828282;
+    padding-left: 10px;
+}
+
+.email-icon input {
+    border: none;
+    outline: none;
+}
+
+.enter {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #828282;
+    width:300px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 12px;
+    font-family: Montserrat, Arial;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.phone-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #4F4F4F
+}
+
+.phone-icon {
+    width: 310px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #828282;
+}
+
+.phone-icon i {
+    color: #828282;
+    padding-left: 10px;
+}
+
+.phone-icon input {
+    border: none;
+    outline: none;
+}
+
+.shippingaddress-text {
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #4F4F4F
+}
+
+.fullname-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #4F4F4F
+}
+
+.name-rodney {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #828282;
+    width:300px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 12px;
+    font-family: Montserrat, Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333
+}
+
+.name-icon {
+        width: 310px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-width: 0.5px;
+        border-style: solid;
+        border-color: #828282;
+}
+
+.name-icon i {
+    color: #828282;
+    padding-left: 10px;
+}
+
+.name-icon input {
+    border: none;
+    outline: none;
+}
+
+.address-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #4F4F4F   
+}
+
+.your-address {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #828282;
+    width:300px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 12px;
+    font-family: Montserrat, Arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.address-icon {
+    width: 310px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #828282;
+}
+
+.address-icon i {
+    color: #828282;
+    padding-left: 10px;
+}
+
+.address-icon input {
+    border: none;
+    outline: none;
+}
+
+.city-text {
+    font-family: Montserrat, Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4F4F4F 
+}
+
+.your-city {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #828282;
+    width:275px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 12px;
+    font-family: Montserrat, Arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.city-icon {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #828282;
+}
+
+.city-icon i {
+    color: #828282;
+    padding-left: 10px;
+}
+
+.city-icon input {
+    border: none;
+    outline: none;
+}
+
+.country-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.country-text {
+    font-family: Montserrat, Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4F4F4F
+}
+
+.your-country {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #828282;
+    width: 100px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 12px;
+    font-family: Montserrat, Arial;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.country-icon {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #828282;
+}
+
+.country-icon i {
+    color: #828282;
+    padding-left: 10px;
+}
+
+.country-icon input {
+    border: none;
+    outline: none;
+}
+
+.subcountry {
+    width: 140px;
+    margin-right: 30px;
+}
+
+
+.code-text {
+    font-family: Montserrat, Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4F4F4F   
+}
+
+.your-code {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #828282;
+    width: 105px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 12px;
+    font-family: Montserrat, Arial;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.code-icon {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #828282;
+}
+
+.code-icon i {
+    color: #828282;
+    padding-left: 10px;
+}
+
+.code-icon input {
+    border: none;
+    outline: none;
+}
+
+.empty-button {
+    border-radius: 3px;
+    width: 10px;
+}
+
+.save-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.save-text {
+    margin-left: 10px;
+    font-family: Montserrat, Arial;
+    font-size: 9px;
+    font-weight: bold;
+    color: #4F4F4F 
+}
+
+.continue-button {
+    margin-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #F2994A;
+    font-family: Montserrat, Arial;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.continue-button:hover {
+    background-color: gray;
+}
+
+.username-text {
+    font-family: Montserrat, Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4F4F4F 
+}
+
+.bag-image {
+    width: 120px;
+    border-radius: 20px;
+}
+
+.sidebar-design {
+    width: 290px;
+    height: 450px;
+    border-width: 0;
+    border-style: solid;
+    border-color: #4F4F4F;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+.vintage-container1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.vintage-container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subvintage-container {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    /* align-items: start; */
+}
+
+.button-text {
+    width: 90px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4F4F4F;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.button1 {
+    background-color: #dddddd;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.button2 {
+    background-color: #dddddd;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.vintage-text {
+    font-family: Montserrat, Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #828282;  
+}
+
+.price-text {
+    font-family: Montserrat, Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F2994A; 
+}
+
+.price-tag {
+    color: #4E5150;
+    font-family: Montserrat, Arial;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.levi-text {
+    font-family: Montserrat, Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #828282 
+}
+
+.ship-text {
+    font-family: Montserrat, Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333
+}
+
+.ship-price {
+    margin-left: 140px;
+    font-family: Montserrat, Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333
+}
+
+.total-text {
+    font-family: Montserrat, Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333
+}
+
+.total-price {
+    margin-left: 140px;
+    font-family: Montserrat, Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333
+}
+
+
+
+.username-text {
+    text-align: center;
+}
+
